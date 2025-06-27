@@ -1,10 +1,9 @@
-/**
- * The main component of the application. Currently, it does not render anything.
- *
- * @returns JSX element that serves as the root of the application
- */
 function App() {
-  return <></>;
+  return (
+    <div className="h-screen w-screen flex items-center justify-center">
+      <h1 className="text-4xl">Welcome to Terminal Labs</h1>
+    </div>
+  );
 }
 
 export default App;
